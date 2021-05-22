@@ -1,0 +1,211 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    background-image: url(./sec-informacion-fondo.webp);
+    background-size: contain;
+}
+
+
+header {
+    height: 80%;
+    background-image: url(./fest4.jpg);
+    background-position:bottom;
+    background-size:cover;
+    border-bottom: 5px ridge white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.hd-inicio {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.hd-inicio h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 5.5em;
+    color: rgba(255, 0, 0, 0.712);
+}
+
+.hd-inicio span{
+    color: white;
+    font-size: 1.2em;
+}
+
+.nav-bar {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    background-color: rgba(2, 2, 2, 0.418);
+    /* border-bottom: 3px solid rgba(8, 241, 203, 0.719); */
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-bar li {
+    color: white;
+    margin: 0px 3vh;
+    font-family: 'Righteous', cursive;
+    font-size: 1.3em;
+}
+
+.nav-bar li:hover {
+    font-size: 1.4em;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.nav-bar i {
+    margin: 0px 8px;
+}
+
+.cont-header li {
+    display: inline-block;
+}
+
+.sec-informacion {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom:150px;
+    border-bottom: 5px ridge white;
+}
+
+.contenedores-inf {
+    padding: 35px 10px;
+    text-align: center;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.contenedores-inf:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.contenedores-inf h2{
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 4em;
+    margin-top: 0px;
+}
+
+.contenedores-inf img {
+    border: 2px solid white;
+    width: 70%;
+}
+
+.contenedores-inf p {
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+.sec-bandas {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 5px ridge white;
+}
+
+.titulosblancos {
+    text-shadow: 3px 3px 2px #da0000e0;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 4em;
+     margin-top: 0px;
+}
+
+.sec-bandas img {
+    border: 2px solid white;
+    width: 100%;
+    filter: grayscale(1);
+}
+
+.div-banda {
+    padding: 70px 0px;
+    width: 70%;
+    text-align: center;
+}
+
+.sec-compra {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-top: 100px;
+    padding-bottom:100px;
+    border-bottom: 5px ridge red;
+}
+
+.sec-compra li{
+    font-size: 3em;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+.sec-compra label{
+    font-size: 3em;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+.sec-formulario-compra {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 55%;
+    border-right: 2px solid white;
+}
+
+.sec-formulario-compra input, button {
+    text-align: center;
+    padding:0;
+    width: 40%;
+    font-family: 'Righteous', cursive;
+    font-size: 1.3em;
+    height: 3em;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-redes {
+    color: red;
+    font-size: 2.5em;
+}
+
+footer i {
+    margin: 0px 30px;
+    font-size: 3em;
+    color: red;
+}
+
+footer i:hover {
+    font-size: 3.3em;
+    color: white;
+}
+
+
+
+
